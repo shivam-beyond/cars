@@ -1,0 +1,122 @@
+export const cars = [
+  {
+    id: 1,
+    make: 'Toyota',
+    model: 'Camry',
+    trim: 'SE',
+    year: 2022,
+    color: 'Red',
+    mileage: 12000,
+    price: 300,
+    image: '/images/1.webp',
+    zip: 10001
+  },
+  {
+    id: 2,
+    make: 'Ford',
+    model: 'Mustang',
+    trim: 'GT',
+    year: 2023,
+    color: 'Blue',
+    mileage: 8000,
+    price: 450,
+    image: '/images/2.webp',
+    zip: 10001
+  },
+  {
+    id: 3,
+    make: 'Honda',
+    model: 'Civic',
+    trim: 'EX',
+    year: 2021,
+    color: 'White',
+    mileage: 15000,
+    price: 280,
+    image: '/images/3.webp',
+    zip: 10001
+  },
+  {
+    id: 4,
+    make: 'BMW',
+    model: '3 Series',
+    trim: '330i',
+    year: 2024,
+    color: 'Black',
+    mileage: 5000,
+    price: 550,
+    image: '/images/4.webp',
+    zip: 10001
+  },
+  {
+    id: 5,
+    make: 'Tesla',
+    model: 'Model 3',
+    trim: 'Long Range',
+    year: 2023,
+    color: 'Silver',
+    mileage: 6000,
+    price: 490,
+    image: '/images/5.webp',
+    zip: 10001
+  },
+  {
+    id: 6,
+    make: 'Toyota',
+    model: 'RAV4',
+    trim: 'XLE',
+    year: 2021,
+    color: 'Green',
+    mileage: 17000,
+    price: 310,
+    image: '/images/6.webp',
+    zip: 10002
+  },
+  {
+    id: 7,
+    make: 'Ford',
+    model: 'Explorer',
+    trim: 'Limited',
+    year: 2022,
+    color: 'Silver',
+    mileage: 14000,
+    price: 400,
+    image: '/images/7.webp',
+    zip: 10002
+  },
+  {
+    id: 8,
+    make: 'Honda',
+    model: 'Accord',
+    trim: 'Sport',
+    year: 2023,
+    color: 'Black',
+    mileage: 9000,
+    price: 320,
+    image: '/images/8.webp',
+    zip: 10002
+  },
+  {
+    id: 9,
+    make: 'BMW',
+    model: 'X5',
+    trim: 'xDrive40i',
+    year: 2024,
+    color: 'White',
+    mileage: 4000,
+    price: 620,
+    image: '/images/9.webp',
+    zip: 10002
+  },
+  {
+    id: 10,
+    make: 'Tesla',
+    model: 'Model Y',
+    trim: 'Performance',
+    year: 2024,
+    color: 'Blue',
+    mileage: 3000,
+    price: 520,
+    image: '/images/10.webp',
+    zip: 10002
+  }
+];
