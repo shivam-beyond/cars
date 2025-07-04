@@ -25,7 +25,7 @@ export default function Filters({ open, onClose }) {
 
 	const fCounts = useMemo(() => filterCount(filters), [filters]);
 
-	return <div className={'sticky max-lg:fixed top-[32px] overflow-hidden max-lg:bg-black max-lg:z-10 max-lg:bottom-0 max-lg:left-0 max-lg:top-auto max-lg:w-full h-fit max-h-[calc(100vh-180px)] max-lg:max-h-[calc(100vh-64px)] w-[340px] max-xl:w-[240px] flex-shrink-0 flex-col rounded-lg lg:flex bg-[#0006] ' + (open ? 'block' : 'hidden')}>
+	return <div className={'sticky max-lg:fixed top-[32px] overflow-hidden max-lg:bg-black max-lg:z-10 max-lg:bottom-0 max-lg:left-0 max-lg:top-auto max-lg:w-full h-fit max-lg:max-h-[calc(100vh-180px)] max-h-[calc(100vh-64px)] w-[340px] max-xl:w-[240px] flex-shrink-0 flex-col rounded-lg lg:flex bg-[#0006] ' + (open ? 'block' : 'hidden')}>
 		<div className='flex gap-3 items-center py-4 px-6'>
 			<h3 className='text-md font-bold'>Filters {fCounts > 0 ? `(${fCounts})` : ''}</h3>
 			<button className='text-sm ml-auto text-blue-300 cursor-pointer hover:text-blue-500 font-bold' onClick={onClear}>Clear</button>
